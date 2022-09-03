@@ -1,0 +1,26 @@
+{
+  "name": "crud-ecommerce-wbapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev":"nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheraz756/CRUD-Ecommerce-wbapp.git"
+  },
+  "author": "sheraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheraz756/CRUD-Ecommerce-wbapp/issues"
+  },
+  "homepage": "https://github.com/sheraz756/CRUD-Ecommerce-wbapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.4"
+  }
+}
