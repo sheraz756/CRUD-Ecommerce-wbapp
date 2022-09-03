@@ -16,7 +16,7 @@ const productModel = mongoose.model('Product', productSchema);
 
 let app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({origin:'*'}));
 
 
 app.get("/products", async (req, res) => {
